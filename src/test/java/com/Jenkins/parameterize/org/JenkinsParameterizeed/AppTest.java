@@ -24,6 +24,9 @@ public class AppTest {
     		System.out.println("browserJenkins : "+browserJenkins);
         	
     		browser="Firefox";
+    	}else
+    	{
+    		System.out.println("Browser parametrized from Jenkins : "+browser);
     	}
     	System.out.println("Jenkins Parametrized");
     	if (browser.equals("Chrome")) {
