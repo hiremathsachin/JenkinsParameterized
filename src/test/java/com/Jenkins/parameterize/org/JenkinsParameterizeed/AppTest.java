@@ -18,7 +18,7 @@ public class AppTest {
     @Parameters({"browser"})
     public void shouldAnswerWithTrue(String browser) {
         
-    	String browserJenkins=System.getProperty("Browser");
+    	String browserJenkins=System.getProperty("browser");
     	if(browserJenkins==null)
     	{
     		System.out.println("browserJenkins : "+browserJenkins);
